@@ -1,0 +1,849 @@
+
+App Academy Open - home
+Home
+Syllabus
+Community
+Schir
+a/A Open - Software Engineering
+Web Development Fundamentals
+Getting Started at App Academy
+Hide Completed
+Learning at App Academy
+You're all done!
+Practices Completed 6 / 6
+Introduction to Problem Solving I
+You're all done!
+Practices Completed 4 / 4
+JavaScript Fundamentals
+Hide Completed
+Data Types
+You're all done!
+Practices Completed 19 / 19
+Intro to Functions
+You're all done!
+Practices Completed 17 / 17
+Control Flow
+You're all done!
+Practices Completed 19 / 19
+Setting Up Your Environment I
+Hide Completed
+Setting up Your Computer
+You're all done!
+Practices Completed 6 / 6
+Getting to Know Your Computer
+Estimated Time to Complete 1 hour and 13 minutes
+Practices Completed 0 / 7
+Intro to Source Control
+Estimated Time to Complete 55 minutes
+Practices Completed 0 / 6
+HTML & CSS Fundamentals
+Show Completed
+Problem Solving
+Estimated Time to Complete 10 minutes
+Practices Completed 0 / 3
+HTML Basics
+Estimated Time to Complete 1 hour and 58 minutes
+Practices Completed 0 / 12
+CSS Basics
+Estimated Time to Complete 1 hour and 22 minutes
+Practices Completed 0 / 6
+Intermediate HTML & CSS
+Show Completed
+HTML Forms
+Estimated Time to Complete 2 hours and 3 minutes
+Practices Completed 0 / 5
+Intermediate CSS
+Estimated Time to Complete 4 hours and 40 minutes
+Practices Completed 0 / 11
+HTML & CSS: Putting It All Together
+Show Completed
+Capstone Project
+Estimated Time to Complete 4 hours and 3 minutes
+Practices Completed 0 / 2
+Setting Up Your Environment II
+Show Completed
+Computer Analysis
+Estimated Time to Complete 35 minutes
+Practices Completed 0 / 5
+Git and GitHub Basics
+Estimated Time to Complete 21 minutes
+Practices Completed 0 / 5
+Resolving Common Issues
+Estimated Time to Complete 1 hour and 35 minutes
+Practices Completed 0 / 4
+Intermediate JavaScript
+Show Completed
+Getting Started with Node
+Estimated Time to Complete 17 minutes
+Practices Completed 0 / 5
+Local JavaScript Practice
+Estimated Time to Complete 2 hours and 30 minutes
+Practices Completed 0 / 1
+Refactoring JavaScript Practice
+Estimated Time to Complete 2 hours and 52 minutes
+Practices Completed 0 / 4
+HTML / CSS Unit Tests
+Estimated Time to Complete 35 minutes
+Practices Completed 0 / 2
+JavaScript Fundamentals
+Introduction to JavaScript
+Show Completed
+Expressions
+Estimated Time to Complete 12 minutes
+Practices Completed 0 / 5
+Data Types
+Estimated Time to Complete 2 hours and 14 minutes
+Practices Completed 0 / 26
+Functions
+Estimated Time to Complete 1 hour and 46 minutes
+Practices Completed 0 / 17
+Control Flow
+Show Completed
+Control Flow Decisions
+Estimated Time to Complete 1 hour and 1 minute
+Practices Completed 0 / 9
+Basic Loops
+Estimated Time to Complete 1 hour and 40 minutes
+Practices Completed 0 / 11
+String Loops
+Estimated Time to Complete 3 hours and 4 minutes
+Practices Completed 0 / 18
+Intermediate JavaScript
+Show Completed
+Problem Solving II
+Estimated Time to Complete 46 minutes
+Practices Completed 0 / 6
+Introduction to Arrays
+Estimated Time to Complete 1 hour and 39 minutes
+Practices Completed 0 / 14
+Intermediate Functions
+Estimated Time to Complete 2 hours and 6 minutes
+Practices Completed 0 / 12
+Data Types
+Estimated Time to Complete 2 hours and 24 minutes
+Practices Completed 0 / 19
+Intermediate Arrays
+Show Completed
+Add to Arrays
+Estimated Time to Complete 3 hours and 10 minutes
+Practices Completed 0 / 21
+Chopping Up Arrays
+Estimated Time to Complete 2 hours and 54 minutes
+Practices Completed 0 / 18
+Advanced Arrays
+Show Completed
+Nested Loops
+Estimated Time to Complete 1 hour and 1 minute
+Practices Completed 0 / 7
+2-D Arrays
+Estimated Time to Complete 4 hours and 11 minutes
+Practices Completed 0 / 12
+Additional Practices
+Show Completed
+Recalling What You've Covered
+Estimated Time to Complete 2 hours and 37 minutes
+Practices Completed 0 / 13
+Advanced Array Methods
+Show Completed
+Map, Reduce, and Filter
+Estimated Time to Complete 55 minutes
+Practices Completed 0 / 7
+Advanced Array Methods Project
+Estimated Time to Complete 3 hours
+Practices Completed 0 / 1
+Intermediate JavaScript
+Local JavaScript
+Show Completed
+Getting Started with Node.js
+Estimated Time to Complete 56 minutes
+Practices Completed 0 / 8
+Objects
+Show Completed
+JavaScript Objects
+Estimated Time to Complete 3 hours and 25 minutes
+Practices Completed 0 / 16
+Objects Project
+Estimated Time to Complete 2 hours and 30 minutes
+Practices Completed 0 / 1
+Callbacks
+Show Completed
+Callbacks and Functions
+Estimated Time to Complete 1 hour and 5 minutes
+Practices Completed 0 / 10
+Callback Project
+Estimated Time to Complete 3 hours and 35 minutes
+Practices Completed 0 / 3
+Scope and Closures
+Show Completed
+Scope and Arrow Functions
+Estimated Time to Complete 1 hour and 25 minutes
+Practices Completed 0 / 11
+Closures
+Estimated Time to Complete 21 minutes
+Practices Completed 0 / 3
+Scope and Closures Project
+Estimated Time to Complete 3 hours
+Practices Completed 0 / 1
+Recursion
+Show Completed
+Recursion
+Estimated Time to Complete 58 minutes
+Practices Completed 0 / 10
+Recursion Projects
+Estimated Time to Complete 6 hours
+Practices Completed 0 / 2
+IIFEs and Recalls
+Show Completed
+Hoisting
+Estimated Time to Complete 33 minutes
+Practices Completed 0 / 5
+Recalls
+Estimated Time to Complete 55 minutes
+Practices Completed 0 / 8
+Asynchronicity
+Show Completed
+Async JavaScript
+Estimated Time to Complete 1 hour and 8 minutes
+Practices Completed 0 / 10
+Timeout Project
+Estimated Time to Complete 4 hours
+Practices Completed 0 / 2
+Guessing Game Project
+Estimated Time to Complete 2 hours and 26 minutes
+Practices Completed 0 / 3
+TDD and OOP
+Basic Coding Principles
+Show Completed
+Modules and Packages
+Estimated Time to Complete 1 hour and 19 minutes
+Practices Completed 0 / 9
+Clean Maintainable Code
+Estimated Time to Complete 2 hours
+Practices Completed 0 / 9
+Clean Maintainable Code Project
+Estimated Time to Complete 1 hour and 30 minutes
+Practices Completed 0 / 1
+Object-Oriented Programming
+Show Completed
+OOP & Classes
+Estimated Time to Complete 2 hours and 9 minutes
+Practices Completed 0 / 23
+Basic Projects
+Estimated Time to Complete 2 hours and 45 minutes
+Practices Completed 0 / 2
+Challenge Projects
+Estimated Time to Complete 4 hours
+Practices Completed 0 / 2
+Context in JavaScript
+Show Completed
+Context in Regular Functions
+Estimated Time to Complete 1 hour and 26 minutes
+Practices Completed 0 / 9
+Context in Arrow Functions
+Estimated Time to Complete 57 minutes
+Practices Completed 0 / 5
+Basic Project
+Estimated Time to Complete 2 hours
+Practices Completed 0 / 1
+Challenge Projects
+Estimated Time to Complete 6 hours and 30 minutes
+Practices Completed 0 / 2
+TDD Basics
+Show Completed
+Error Handling
+Estimated Time to Complete 49 minutes
+Practices Completed 0 / 5
+Testing
+Estimated Time to Complete 1 hour and 28 minutes
+Practices Completed 0 / 9
+Basic Projects
+Estimated Time to Complete 2 hours
+Practices Completed 0 / 1
+Challenge Projects
+Estimated Time to Complete 5 hours
+Practices Completed 0 / 2
+Intermediate TDD
+Show Completed
+Custom Errors & ES5 Classes
+Estimated Time to Complete 1 hour and 9 minutes
+Practices Completed 0 / 6
+Challenge Projects
+Estimated Time to Complete 3 hours and 30 minutes
+Practices Completed 0 / 1
+Data Structures and Algorithms
+Code Performance
+Show Completed
+Time and Space Complexity
+Estimated Time to Complete 1 hour and 22 minutes
+Practices Completed 0 / 8
+Big-O Practice
+Estimated Time to Complete 1 hour and 35 minutes
+Practices Completed 0 / 3
+Logic and Memory
+Estimated Time to Complete 1 hour and 44 minutes
+Practices Completed 0 / 7
+Data Structures I
+Show Completed
+Arrays and Stacks
+Estimated Time to Complete 1 hour and 34 minutes
+Practices Completed 0 / 5
+Linked Lists and Queues
+Estimated Time to Complete 1 hour and 19 minutes
+Practices Completed 0 / 6
+Linked Lists and Queues Project
+Estimated Time to Complete 3 hours
+Practices Completed 0 / 1
+Whiteboarding I
+Show Completed
+Improving Time Complexity
+Estimated Time to Complete 16 minutes
+Practices Completed 0 / 3
+Whiteboarding Problems
+Estimated Time to Complete 4 hours
+Practices Completed 0 / 1
+Data Structures II
+Show Completed
+Hash Tables and Sets
+Estimated Time to Complete 1 hour and 37 minutes
+Practices Completed 0 / 8
+Hash Tables Project
+Estimated Time to Complete 3 hours
+Practices Completed 0 / 1
+Sorting
+Show Completed
+Basic Sorting
+Estimated Time to Complete 1 hour and 20 minutes
+Practices Completed 0 / 9
+Intermediate Sorting
+Estimated Time to Complete 56 minutes
+Practices Completed 0 / 6
+Sorting Projects
+Estimated Time to Complete 2 hours and 15 minutes
+Practices Completed 0 / 2
+Trees and Binary Search
+Show Completed
+Trees Basics
+Estimated Time to Complete 45 minutes
+Practices Completed 0 / 5
+Binary Search Trees
+Estimated Time to Complete 1 hour and 30 minutes
+Practices Completed 0 / 5
+Binary Search Trees Projects
+Estimated Time to Complete 2 hours and 15 minutes
+Practices Completed 0 / 2
+Graphs
+Show Completed
+Graph Basics
+Estimated Time to Complete 1 hour and 30 minutes
+Practices Completed 0 / 13
+Adjacency Lists
+Estimated Time to Complete 44 minutes
+Practices Completed 0 / 3
+Matrix Graphs
+Estimated Time to Complete 4 hours and 34 minutes
+Practices Completed 0 / 6
+Whiteboarding II
+Show Completed
+Whiteboarding Practice
+Estimated Time to Complete 1 hour and 19 minutes
+Practices Completed 0 / 3
+LeetCode Problems
+Estimated Time to Complete 2 hours and 30 minutes
+Practices Completed 0 / 5
+HTML and CSS
+Intro to Web Design
+Show Completed
+HTML and Design
+Estimated Time to Complete 1 hour and 15 minutes
+Practices Completed 0 / 6
+HTML from Wireframes Project
+Estimated Time to Complete 2 hours
+Practices Completed 0 / 1
+CSS Fundamentals
+Show Completed
+CSS Basics
+Estimated Time to Complete 2 hours and 34 minutes
+Practices Completed 0 / 14
+CSS Basics Projects
+Estimated Time to Complete 4 hours
+Practices Completed 0 / 2
+Intermediate CSS
+Show Completed
+Flexbox and Grid Layout
+Estimated Time to Complete 1 hour and 57 minutes
+Practices Completed 0 / 11
+CSS Layout Project
+Estimated Time to Complete 3 hours
+Practices Completed 0 / 8
+Advanced CSS
+Show Completed
+Media Queries
+Estimated Time to Complete 2 hours and 26 minutes
+Practices Completed 0 / 3
+Transitions
+Estimated Time to Complete 3 hours and 27 minutes
+Practices Completed 0 / 4
+CSS Capstone Project
+Show Completed
+Pixel-Perfect Clone Project
+Estimated Time to Complete 4 hours and 37 minutes
+Practices Completed 0 / 4
+Servers, APIs, and Promises
+HTTP Servers I
+Show Completed
+HTTP Basics
+Estimated Time to Complete 2 hours and 10 minutes
+Practices Completed 0 / 17
+HTTP Basics Project
+Estimated Time to Complete 1 hour and 30 minutes
+Practices Completed 0 / 1
+HTTP Servers II
+Show Completed
+HTTP Request and Response Cycle
+Estimated Time to Complete 1 hour and 35 minutes
+Practices Completed 0 / 10
+Route Handlers, Static Assets, and HTML Templating
+Estimated Time to Complete 1 hour and 55 minutes
+Practices Completed 0 / 9
+HTTP Server Project
+Estimated Time to Complete 3 hours and 30 minutes
+Practices Completed 0 / 1
+Asynchronous JavaScript
+Show Completed
+Promises
+Estimated Time to Complete 1 hour and 23 minutes
+Practices Completed 0 / 5
+Promises Project
+Estimated Time to Complete 1 hour and 30 minutes
+Practices Completed 0 / 1
+Async Functions & Fetch
+Estimated Time to Complete 1 hour and 27 minutes
+Practices Completed 0 / 6
+Fetch Project
+Estimated Time to Complete 2 hours and 30 minutes
+Practices Completed 0 / 1
+APIs
+Show Completed
+Web APIs and JSON
+Estimated Time to Complete 1 hour and 39 minutes
+Practices Completed 0 / 7
+API Documentation
+Estimated Time to Complete 4 hours and 24 minutes
+Practices Completed 0 / 6
+API Server Project
+Estimated Time to Complete 3 hours and 45 minutes
+Practices Completed 0 / 2
+Networks
+Show Completed
+Network Protocol
+Estimated Time to Complete 1 hour and 7 minutes
+Practices Completed 0 / 10
+Frontend JavaScript
+The Browser
+Show Completed
+Browser Basics
+Estimated Time to Complete 1 hour and 37 minutes
+Practices Completed 0 / 9
+Browser Basics Project
+Estimated Time to Complete 1 hour and 30 minutes
+Practices Completed 0 / 1
+Working with the DOM
+Show Completed
+Element Selection and Manipulation
+Estimated Time to Complete 1 hour and 45 minutes
+Practices Completed 0 / 8
+Element Manipulation Project
+Estimated Time to Complete 2 hours and 30 minutes
+Practices Completed 0 / 1
+Handling Events and Data
+Show Completed
+Event Handling
+Estimated Time to Complete 1 hour and 54 minutes
+Practices Completed 0 / 11
+Event Handling Project
+Estimated Time to Complete 4 hours
+Practices Completed 0 / 1
+Browser Storage
+Show Completed
+Storage Basics
+Estimated Time to Complete 1 hour and 37 minutes
+Practices Completed 0 / 6
+Tic-Tac-Toe Project
+Estimated Time to Complete 3 hours
+Practices Completed 0 / 1
+Capstone Project
+Show Completed
+Catsagram Project
+Estimated Time to Complete 4 hours and 35 minutes
+Practices Completed 0 / 4
+Express & SQL
+Express Basics
+Show Completed
+Intro to Express
+Estimated Time to Complete 2 hours and 6 minutes
+Practices Completed 0 / 19
+Requests & Responses
+Estimated Time to Complete 3 hours and 11 minutes
+Practices Completed 0 / 9
+Intermediate Express
+Show Completed
+Middleware
+Estimated Time to Complete 2 hours and 1 minute
+Practices Completed 0 / 12
+Routers & Environmental Variables
+Estimated Time to Complete 1 hour and 35 minutes
+Practices Completed 0 / 12
+Express Capstone
+Show Completed
+Capstone Project
+Estimated Time to Complete 4 hours
+Practices Completed 0 / 5
+SQL Basics
+Show Completed
+Database Design & Visualization
+Estimated Time to Complete 2 hours and 17 minutes
+Practices Completed 0 / 22
+Basic SQL Commands
+Estimated Time to Complete 1 hour and 54 minutes
+Practices Completed 0 / 16
+Connections
+Estimated Time to Complete 1 hour and 14 minutes
+Practices Completed 0 / 12
+SQL Basic Review
+Estimated Time to Complete 4 hours and 5 minutes
+Practices Completed 0 / 6
+Intermediate SQL
+Show Completed
+SQL Query Filters
+Estimated Time to Complete 56 minutes
+Practices Completed 0 / 6
+Relationships
+Estimated Time to Complete 1 hour and 16 minutes
+Practices Completed 0 / 10
+SQL Capstone Project
+Show Completed
+Capstone Project
+Estimated Time to Complete 2 hours and 35 minutes
+Practices Completed 0 / 7
+Additional Reviews
+Estimated Time to Complete 2 hours and 15 minutes
+Practices Completed 0 / 3
+Advanced SQL Topics
+Show Completed
+Aggregates & Subqueries
+Estimated Time to Complete 1 hour and 28 minutes
+Practices Completed 0 / 8
+SQL Efficiency and Injection
+Estimated Time to Complete 1 hour and 51 minutes
+Practices Completed 0 / 15
+Optional Projects
+Estimated Time to Complete 3 hours and 35 minutes
+Practices Completed 0 / 13
+Express & Sequelize
+Sequelize Foundations
+Show Completed
+Sequelize
+Estimated Time to Complete 36 minutes
+Practices Completed 0 / 5
+Migrations
+Estimated Time to Complete 39 minutes
+Practices Completed 0 / 7
+Models & Seeders
+Estimated Time to Complete 1 hour and 48 minutes
+Practices Completed 0 / 12
+Sequelize Foundations Capstone
+Estimated Time to Complete 2 hours and 10 minutes
+Practices Completed 0 / 5
+Sequelize Data Manipulation
+Estimated Time to Complete 2 hours and 35 minutes
+Practices Completed 0 / 14
+Relationships in Sequelize
+Show Completed
+Intro to Associations
+Estimated Time to Complete 1 hour and 22 minutes
+Practices Completed 0 / 11
+Sequelize Insertion Options
+Estimated Time to Complete 53 minutes
+Practices Completed 0 / 5
+Sequelize Relationships Capstone
+Estimated Time to Complete 2 hours and 40 minutes
+Practices Completed 0 / 7
+Real World Sequelize Applications
+Show Completed
+Ordering & Aggregation
+Estimated Time to Complete 1 hour and 25 minutes
+Practices Completed 0 / 9
+Pagination & Search Filters
+Estimated Time to Complete 1 hour and 14 minutes
+Practices Completed 0 / 5
+Sequelize Efficiency
+Estimated Time to Complete 53 minutes
+Practices Completed 0 / 5
+Express & SQL Capstone
+Show Completed
+Course Capstone
+Estimated Time to Complete 2 hours and 35 minutes
+Practices Completed 0 / 8
+Optional Projects
+Estimated Time to Complete 2 hours
+Practices Completed 0 / 4
+Web Security and Authentication
+Web Application Security
+Show Completed
+Intro to Security & CSRF
+Estimated Time to Complete 51 minutes
+Practices Completed 0 / 6
+CORS & XSS
+Estimated Time to Complete 1 hour and 8 minutes
+Practices Completed 0 / 7
+Backend Authentication
+Show Completed
+JWT and Roles & Permissions
+Estimated Time to Complete 1 hour and 12 minutes
+Practices Completed 0 / 9
+Passwords
+Estimated Time to Complete 55 minutes
+Practices Completed 0 / 7
+Backend Authentication Project
+Estimated Time to Complete 9 hours and 31 minutes
+Practices Completed 0 / 8
+React
+React Basics
+Show Completed
+Intro to React
+Estimated Time to Complete 30 minutes
+Practices Completed 0 / 9
+Function Components
+Estimated Time to Complete 1 hour and 46 minutes
+Practices Completed 0 / 6
+Create React App
+Estimated Time to Complete 43 minutes
+Practices Completed 0 / 3
+React Routing
+Estimated Time to Complete 1 hour and 54 minutes
+Practices Completed 0 / 7
+React Basics Project
+Estimated Time to Complete 3 hours and 4 minutes
+Practices Completed 0 / 5
+React Hooks and Forms
+Show Completed
+React Hooks
+Estimated Time to Complete 2 hours and 21 minutes
+Practices Completed 0 / 13
+React Hooks Projects
+Estimated Time to Complete 3 hours and 6 minutes
+Practices Completed 0 / 8
+React Forms
+Estimated Time to Complete 2 hours and 8 minutes
+Practices Completed 0 / 6
+React Context and Jest
+Show Completed
+React Context
+Estimated Time to Complete 1 hour and 51 minutes
+Practices Completed 0 / 8
+React Context Projects
+Estimated Time to Complete 3 hours and 35 minutes
+Practices Completed 0 / 7
+Jest
+Estimated Time to Complete 1 hour and 37 minutes
+Practices Completed 0 / 2
+Class Components
+Show Completed
+Refactoring Class Components
+Estimated Time to Complete 38 minutes
+Practices Completed 0 / 14
+Class Components Project
+Estimated Time to Complete 3 hours and 10 minutes
+Practices Completed 0 / 6
+Redux and Authentication
+Redux Basics
+Show Completed
+Intro to Redux
+Estimated Time to Complete 1 hour and 28 minutes
+Practices Completed 0 / 12
+React Redux
+Estimated Time to Complete 1 hour and 28 minutes
+Practices Completed 0 / 6
+React Basics Project
+Estimated Time to Complete 5 hours and 4 minutes
+Practices Completed 0 / 5
+Redux Thunk
+Show Completed
+Recall
+Estimated Time to Complete 32 minutes
+Practices Completed 0 / 4
+Intro to Redux Thunk
+Estimated Time to Complete 1 hour and 40 minutes
+Practices Completed 0 / 14
+Full Stack Data Flow
+Estimated Time to Complete 31 minutes
+Practices Completed 0 / 5
+Redux Thunk Project
+Estimated Time to Complete 5 hours and 2 minutes
+Practices Completed 0 / 3
+Full Stack Capstone
+Show Completed
+Capstone Project
+Estimated Time to Complete 8 hours and 30 minutes
+Practices Completed 0 / 5
+Python
+Data Types
+Show Completed
+Setup and Introduction
+Estimated Time to Complete 1 hour and 45 minutes
+Practices Completed 0 / 9
+Strings
+Estimated Time to Complete 1 hour and 14 minutes
+Practices Completed 0 / 19
+Boolean
+Estimated Time to Complete 43 minutes
+Practices Completed 0 / 12
+Numbers
+Estimated Time to Complete 1 hour and 29 minutes
+Practices Completed 0 / 17
+Operators
+Estimated Time to Complete 1 hour and 16 minutes
+Practices Completed 0 / 12
+Functions and Statements
+Show Completed
+Statements
+Estimated Time to Complete 2 hours and 7 minutes
+Practices Completed 0 / 18
+Functions
+Estimated Time to Complete 1 hour and 4 minutes
+Practices Completed 0 / 9
+Structured Data I
+Show Completed
+Structured Data Intro
+Estimated Time to Complete 30 minutes
+Practices Completed 0 / 4
+Lists
+Estimated Time to Complete 1 hour and 35 minutes
+Practices Completed 0 / 13
+Tuples
+Estimated Time to Complete 1 hour and 31 minutes
+Practices Completed 0 / 12
+Ranges
+Estimated Time to Complete 56 minutes
+Practices Completed 0 / 9
+Dictionaries
+Estimated Time to Complete 1 hour and 13 minutes
+Practices Completed 0 / 13
+Sets
+Estimated Time to Complete 47 minutes
+Practices Completed 0 / 9
+Structured Data II
+Show Completed
+Built-in Functions
+Estimated Time to Complete 1 hour
+Practices Completed 0 / 11
+List Comprehensions
+Estimated Time to Complete 1 hour and 5 minutes
+Practices Completed 0 / 10
+Stacks, Queues and Trees
+Estimated Time to Complete 42 minutes
+Practices Completed 0 / 3
+Object-Oriented Python
+Show Completed
+Decorators
+Estimated Time to Complete 51 minutes
+Practices Completed 0 / 7
+Python Classes
+Estimated Time to Complete 2 hours and 29 minutes
+Practices Completed 0 / 12
+Linked List Project
+Estimated Time to Complete 2 hours
+Practices Completed 0 / 1
+Python Environment and Testing
+Show Completed
+Imports and Scripts
+Estimated Time to Complete 54 minutes
+Practices Completed 0 / 7
+Python Environment
+Estimated Time to Complete 51 minutes
+Practices Completed 0 / 7
+Unit Testing in Python
+Estimated Time to Complete 2 hours and 54 minutes
+Practices Completed 0 / 6
+Python Capstone
+Show Completed
+Capstone Project
+Estimated Time to Complete 10 hours
+Practices Completed 0 / 4
+Flask, SQLAlchemy, and Forms
+Flask Basics
+Show Completed
+Intro to Flask
+Estimated Time to Complete 1 hour and 1 minute
+Practices Completed 0 / 7
+Jinja and Flask Blueprints
+Estimated Time to Complete 1 hour and 9 minutes
+Practices Completed 0 / 9
+Flask Basics Project
+Estimated Time to Complete 3 hours
+Practices Completed 0 / 1
+SQLAlchemy Basics
+Show Completed
+SQLAlchemy
+Estimated Time to Complete 1 hour and 27 minutes
+Practices Completed 0 / 11
+Flask and SQLAlchemy Project
+Estimated Time to Complete 3 hours and 12 minutes
+Practices Completed 0 / 2
+Migrations
+Show Completed
+Migrations with Alembic
+Estimated Time to Complete 36 minutes
+Practices Completed 0 / 5
+Overview Project
+Estimated Time to Complete 3 hours
+Practices Completed 0 / 1
+Docker and Microservices
+Docker Basics
+Show Completed
+Docker and Linux
+Estimated Time to Complete 1 hour and 33 minutes
+Practices Completed 0 / 7
+Docker Containers
+Estimated Time to Complete 1 hour and 18 minutes
+Practices Completed 0 / 9
+Docker Basics Projects
+Estimated Time to Complete 2 hours and 20 minutes
+Practices Completed 0 / 2
+Docker Images
+Show Completed
+Images and Dockerfiles
+Estimated Time to Complete 52 minutes
+Practices Completed 0 / 7
+Docker Images Projects
+Estimated Time to Complete 6 hours and 35 minutes
+Practices Completed 0 / 3
+Docker Compose
+Show Completed
+Compose and Health Checks
+Estimated Time to Complete 26 minutes
+Practices Completed 0 / 5
+Docker Compose Projects
+Estimated Time to Complete 6 hours
+Practices Completed 0 / 3
+Microservices Applied
+Show Completed
+Microservices
+Estimated Time to Complete 1 hour and 54 minutes
+Practices Completed 0 / 5
+Microservices Project
+Estimated Time to Complete 4 hours and 15 minutes
+Practices Completed 0 / 3
+Immersive Programs
+Campus Software Engineering Program
+Online Software Engineering Program (Full Time)
+Online Software Engineering Program (Part Time)
+Prepare
+Bootcamp Prep Live
+Bootcamp Prep Self Paced - Online
+Looking for the previous Open?
+Company
+For Employers
+Diversity & Inclusion
+Regulatory Information
+Careers
