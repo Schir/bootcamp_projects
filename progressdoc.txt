@@ -34,16 +34,16 @@ Getting to Know Your Computer
 You're all done!
 Practices Completed 7 / 7
 Intro to Source Control
-Estimated Time to Complete 55 minutes
-Practices Completed 0 / 6
+You're all done!
+Practices Completed 6 / 6
 HTML & CSS Fundamentals
-Show Completed
+Hide Completed
 Problem Solving
-Estimated Time to Complete 10 minutes
-Practices Completed 0 / 3
+You're all done!
+Practices Completed 3 / 3
 HTML Basics
-Estimated Time to Complete 1 hour and 58 minutes
-Practices Completed 0 / 12
+You're all done!
+Practices Completed 12 / 12
 CSS Basics
 Estimated Time to Complete 1 hour and 22 minutes
 Practices Completed 0 / 6

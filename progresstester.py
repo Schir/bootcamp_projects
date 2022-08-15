@@ -49,8 +49,11 @@ with open('progressdoc.txt') as f:
     #and then it ends by printing all that stuff I did above to the console.
     last = "lesson progress: "
     last += str(progressum) + " / " + str(sumtotal)
+
     print(last)
     print("number of modules:" + str(iterator))
+    #getting a rough percentage approximation by doing a type conversion from int to float, dividing them, and then rounding it off to two decimal places
+    print("percent clear: " + str(round(float(progressum) / float(sumtotal) * 100, 2)) + "%")
 
     #and the file's still open so let's go and close that.
     f.close()
