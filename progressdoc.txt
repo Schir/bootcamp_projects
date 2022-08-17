@@ -45,13 +45,13 @@ HTML Basics
 You're all done!
 Practices Completed 12 / 12
 CSS Basics
-Estimated Time to Complete 1 hour and 22 minutes
-Practices Completed 0 / 6
+You're all done!
+Practices Completed 6 / 6
 Intermediate HTML & CSS
-Show Completed
+Hide Completed
 HTML Forms
-Estimated Time to Complete 2 hours and 3 minutes
-Practices Completed 0 / 5
+You're all done!
+Practices Completed 5 / 5
 Intermediate CSS
 Estimated Time to Complete 4 hours and 40 minutes
 Practices Completed 0 / 11

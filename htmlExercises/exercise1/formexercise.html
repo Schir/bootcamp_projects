@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="utf-8">
+        <title>form</title>
+    </head>
+    <body>
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add user</legend>
+                <div>
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+                <div>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+                <div>
+                    <label for="emailAddress">e-mail address</label>
+                    <input type="text" id="emailAddress" name="email_address">
+                </div>
+                <div>
+                    <label for="status">Status</label>
+                    <select id="status" name="user_status">
+                        <option value="student">Student</option>
+                        <option value="instructor">Instructor</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+                <div>
+                    <p>choose your favorite programming language</p>
+                    <input type="radio" id="html" name="favoritelang" >
+                    <label for="html">HTML</label>
+                
+                    <input type="radio" id="css"  name="favoritelang"  > 
+                    <label for="css" >CSS</label>
+                    <input type="radio" id="js"   name="favoritelang"   >
+                    <label for="js"  >JavaScript</label> 
+                </div>
+                <div>
+                    <label for="comments>">Comments</label>
+                    <textarea id="comments" rows="5" cols="26"></textarea>
+                </div>
+                <div>
+                    <label for="dateEnter">Date</label>
+                    <input type="date" id="dateEnter" name="date_entered" min="2022-08-15" required>
+                </div>
+                <div>
+                    <input type="checkbox" id="newsletter" name="newsletterVerify">
+                    <label for="newsletter">Sign up for more stunning content like this</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="termsAndConditions" name="terms_may_apply">
+                    <label for="termsAndConditions">I agree to the terms and conditions listed in the EULA</label>
+                </div>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>

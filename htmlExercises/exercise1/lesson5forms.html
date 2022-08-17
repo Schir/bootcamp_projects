@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Learning the Forms</title>
+    </head>
+
+    <body>
+        <h1>Hello, Forms!</h1>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add user</legend>
+            
+                <div>
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+                <div>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+                <div>
+                    <label for="role">Role</label>
+                    <select id="role" name="user_role_name">
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" name="bio"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Add this person</button>
+                </div>
+            </fieldset>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>class</th>
+                    <th colspan="3">attack</th>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>altur</td>
+                    <td>saber</td>
+                    <td>2 buster</td>
+                    <td>2 arts</td>
+                    <td>1 quick</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <a href="directory.html">home</a>
+    </body>
+
+</html>

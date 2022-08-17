@@ -1,0 +1,65 @@
+//studying some assembly, following along with a lecture
+
+//let's see, looks like this a program for running the fibonacci
+//sequence at some iteration n
+/*
+int64_t fib(int64_t n)
+{
+    //if n is one or zero, return those
+	if(n < 2) return n;
+    //otherwise, recursively call the function until it bottoms out at 1 or 0
+    return (fib(n-1) + fib(n-2));
+}
+*/
+//and then it looks like the course says 
+//that that will decompile to the following assembly
+
+//so let's see here, what do I recognize
+        .globl      _fib //looks like this is a global function defining the _fib call
+        .p2align    4, 0x90
+_fib:   ## @fib                 //this is probably the main part of the loop
+        pushq       %rbp
+        movq        %rsp, %rbp
+        pushq       %r14
+        pushq       %rbx
+        movq        %rdi %rbx
+        cmpq        $2, %rbx //this looks like a comparator, so this is probably the if statement
+        jge         LBB0_1   //and if cmpq is the comparator, then jge must be jump if greater than or equals
+        movq        %rbx, %rax  //I guess this would be moving whatever's in rbx (dunno what rbx does yet) into the accumulator register
+        jmp         LBB0_3
+LBBO_1:
+        leaq        -1(%rbx), %rdi  //this is probably the fib(n-1) part
+        callq       _fib
+        movq        %rax, %r14
+        addq        $-2, %rbx  //this is probably the fib(n-2) part
+        movq        %rbx, %rdi
+        callq       _fib
+        addq        %r14, %rax
+LBB0_3:                         //this is probably the if (n<2) return n part
+        popq        %rbx
+        popq        %r14
+        popq        %rbp
+        retq                    //this is probably the return part
+
+//looks like %rsp is the address of the top of the stack
+    //so in shorthand, that'd be the last value saved
+//looks like pushq subtracts 8 from the stack pointer and
+//stores the value at the top of the stack
+
+//popq retrieves the value at %rsp 
+//and increments the stack pointer by 8
+
+//pushq and popq grow downward from high addresses
+//to low addresses.
+
+//looks like the q in all of those above instructions is 
+//to let the compiler know that you're sending it a 64-bit
+//operation
+
+//1 byte = byte         = b
+//2 bytes = word        = w
+//4 bytes = double word = l
+//8 bytes = quad word   = q
+
+
+//xor rax, rax zeroes out the register faster than it would if you just put zero into it
