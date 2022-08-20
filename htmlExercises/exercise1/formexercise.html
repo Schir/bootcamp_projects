@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en_US">
     <head>
+        <link rel="stylesheet" type="text/css" href="formlayout.css">
         <meta charset="utf-8">
         <title>form</title>
     </head>
@@ -9,18 +10,18 @@
             <fieldset>
                 <legend>Add user</legend>
                 <div>
-                    <label for="firstName">First name</label>
+                    <label for="firstName">First Name</label>
                     <input type="text" id="firstName" name="first_name">
                 </div>
                 <div>
-                    <label for="lastName">Last name</label>
+                    <label for="lastName">Last Name</label>
                     <input type="text" id="lastName" name="last_name">
                 </div>
                 <div>
-                    <label for="emailAddress">e-mail address</label>
+                    <label for="emailAddress">Email</label>
                     <input type="text" id="emailAddress" name="email_address">
                 </div>
-                <div>
+                <div id="statusDiv">
                     <label for="status">Status</label>
                     <select id="status" name="user_status">
                         <option value="student">Student</option>
@@ -28,31 +29,31 @@
                         <option value="guest">Guest</option>
                     </select>
                 </div>
-                <div>
-                    <p>choose your favorite programming language</p>
+                <div id="dateDiv">
+                    <label for="dateEnter">Date</label>
+                    <input type="date" id="dateEnter" name="date_entered" min="2022-08-15" required>
+                </div>
+                <p>choose your favorite language</p>
+                <div id="languageDiv">
                     <input type="radio" id="html" name="favoritelang" >
                     <label for="html">HTML</label>
                 
                     <input type="radio" id="css"  name="favoritelang"  > 
                     <label for="css" >CSS</label>
                     <input type="radio" id="js"   name="favoritelang"   >
-                    <label for="js"  >JavaScript</label> 
+                    <label for="js"  >JS</label> 
                 </div>
                 <div>
-                    <label for="comments>">Comments</label>
+                    <label for="comments">Comments</label>
                     <textarea id="comments" rows="5" cols="26"></textarea>
                 </div>
-                <div>
-                    <label for="dateEnter">Date</label>
-                    <input type="date" id="dateEnter" name="date_entered" min="2022-08-15" required>
-                </div>
-                <div>
+                <div id="newsletterDiv">
                     <input type="checkbox" id="newsletter" name="newsletterVerify">
-                    <label for="newsletter">Sign up for more stunning content like this</label>
+                    <label for="newsletter">sign up for news</label>
                 </div>
-                <div>
+                <div id="checkboxDiv">
                     <input type="checkbox" id="termsAndConditions" name="terms_may_apply">
-                    <label for="termsAndConditions">I agree to the terms and conditions listed in the EULA</label>
+                    <label for="termsAndConditions">agree to the EULA</label>
                 </div>
 
                 <button type="submit">Submit</button>
