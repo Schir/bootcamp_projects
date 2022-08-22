@@ -54,7 +54,7 @@ You're all done!
 Practices Completed 5 / 5
 Intermediate CSS
 Estimated Time to Complete 4 hours and 40 minutes
-Practices Completed 8 / 11
+Practices Completed 10 / 11
 HTML & CSS: Putting It All Together
 Hide Completed
 Capstone Project
@@ -83,8 +83,8 @@ Refactoring JavaScript Practice
 You're all done!
 Practices Completed 4 / 4
 HTML / CSS Unit Tests
-Estimated Time to Complete 35 minutes
-Practices Completed 0 / 2
+You're all done!
+Practices Completed 2 / 2
 JavaScript Fundamentals
 Introduction to JavaScript
 Hide Completed
@@ -92,27 +92,27 @@ Expressions
 You're all done!
 Practices Completed 5 / 5
 Data Types
-Estimated Time to Complete 2 hours and 14 minutes
-Practices Completed 0 / 26
+You're all done!
+Practices Completed 26 / 26
 Functions
-Estimated Time to Complete 1 hour and 46 minutes
-Practices Completed 0 / 17
+You're all done!
+Practices Completed 17 / 17
 Control Flow
-Show Completed
+Hide Completed
 Control Flow Decisions
-Estimated Time to Complete 1 hour and 1 minute
-Practices Completed 0 / 9
+You're all done!
+Practices Completed 9 / 9
 Basic Loops
-Estimated Time to Complete 1 hour and 40 minutes
-Practices Completed 0 / 11
+You're all done!
+Practices Completed 11 / 11
 String Loops
-Estimated Time to Complete 3 hours and 4 minutes
-Practices Completed 0 / 18
+You're all done!
+Practices Completed 18 / 18
 Intermediate JavaScript
-Show Completed
+Hide Completed
 Problem Solving II
-Estimated Time to Complete 46 minutes
-Practices Completed 0 / 6
+You're all done!
+Practices Completed 6 / 6
 Introduction to Arrays
 Estimated Time to Complete 1 hour and 39 minutes
 Practices Completed 0 / 14
