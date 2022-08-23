@@ -119,8 +119,10 @@ function pigLatinWord(word) {
   //in the exercises I was just copying this in every time it asked me to do something with checking vowels
   //way faster than writing it from scratch every time
   //could probably add in 'A', 'E', 'I', 'O', 'U', but :effort:
+  //just chuck in a toLowerCase() before calling this
   function vowelChecker(letter)
   {
+      //fall through the vowels if it's true, return false if it's not one of those five 
       switch(letter)
       {
           case 'a':
@@ -227,12 +229,17 @@ function sillyString(word){
     let str=""
     for(let i=0;i<word.length;i++)
     {
+        //check if the letter's a vowel
         if(vowelChecker(word[i].toLowerCase()))
         {
+            //if so, repeat the vowel twice with a b in between
+            //does this make any sense? no, but it's what the spec asked for
+            //so who am I to ask
             str += `${word[i]}b${word[i]}`
         }
         else
         {
+            //if it's not a vowel, just return the character at index i
             str += word[i]
         }
     }
@@ -250,10 +257,12 @@ console.log(sillyString('scooter'));    // scobooboteber
 // Your code here
 function moreDotLessDash(string)
 {
+    //set up two variables to count up dots and dashes
     let dotCount=0;
     let dashCount=0;
     for(let i=0; i<string.length;i++)
     {
+        //don't want to write an if/else so I'm just chucking it through a gussied-up goto
         switch(string[i])
         {
             case '.':
