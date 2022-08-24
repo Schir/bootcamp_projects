@@ -123,10 +123,10 @@ Data Types
 You're all done!
 Practices Completed 19 / 19
 Intermediate Arrays
-Show Completed
+Hide Completed
 Add to Arrays
-Estimated Time to Complete 3 hours and 10 minutes
-Practices Completed 1 / 21
+You're all done!
+Practices Completed 21 / 21
 Chopping Up Arrays
 Estimated Time to Complete 2 hours and 54 minutes
 Practices Completed 0 / 18
