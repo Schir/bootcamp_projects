@@ -114,19 +114,19 @@ Problem Solving II
 You're all done!
 Practices Completed 6 / 6
 Introduction to Arrays
-Estimated Time to Complete 1 hour and 39 minutes
-Practices Completed 0 / 14
+You're all done!
+Practices Completed 14 / 14
 Intermediate Functions
-Estimated Time to Complete 2 hours and 6 minutes
-Practices Completed 0 / 12
+You're all done!
+Practices Completed 12 / 12
 Data Types
-Estimated Time to Complete 2 hours and 24 minutes
-Practices Completed 0 / 19
+You're all done!
+Practices Completed 19 / 19
 Intermediate Arrays
 Show Completed
 Add to Arrays
 Estimated Time to Complete 3 hours and 10 minutes
-Practices Completed 0 / 21
+Practices Completed 1 / 21
 Chopping Up Arrays
 Estimated Time to Complete 2 hours and 54 minutes
 Practices Completed 0 / 18
