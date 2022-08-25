@@ -128,16 +128,16 @@ Add to Arrays
 You're all done!
 Practices Completed 21 / 21
 Chopping Up Arrays
-Estimated Time to Complete 2 hours and 54 minutes
-Practices Completed 0 / 18
+You're all done!
+Practices Completed 18 / 18
 Advanced Arrays
-Show Completed
+Hide Completed
 Nested Loops
-Estimated Time to Complete 1 hour and 1 minute
-Practices Completed 0 / 7
+You're all done!
+Practices Completed 7 / 7
 2-D Arrays
 Estimated Time to Complete 4 hours and 11 minutes
-Practices Completed 0 / 12
+Practices Completed 1 / 12
 Additional Practices
 Show Completed
 Recalling What You've Covered
