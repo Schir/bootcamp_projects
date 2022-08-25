@@ -511,3 +511,514 @@ function summationSequence(start, length) {
 
 console.log(summationSequence(3, 4)); // [3, 6, 21, 231]
 console.log(summationSequence(5, 3)); // [5, 15, 120]
+
+//=====================
+// start of section 2
+//=====================
+
+//Write a function that takes a location, either "FRONT" or "BACK" and 
+//removes the element at either the front or back of the given array. 
+//If location is anything besides "FRONT" or "BACK", print an error. 
+//Your function should not return anything and should mutate the original array. 
+//(Hint: Look up the JavaScript functions: push/pop/shift/unshift)
+function removeFromArray(location, arr) {
+    switch(location){
+        case "FRONT":
+            arr.shift();
+           break;
+        case "BACK":
+            arr.pop();
+            break;
+        default:
+            console.error("ERROR");
+   }
+}
+testArray = [0,1,2,3,4]
+removeFromArray("FRONT", testArray)
+console.log(testArray) // [1,2,3,4]
+removeFromArray("BACK", testArray)
+console.log(testArray) // [1,2,3]
+removeFromArray("MIDDLE", 4, testArray) // "ERROR"
+console.log(testArray) // [1,2,3]
+
+
+//Write a function popper(array, num) that takes in an array and a number as args. 
+//The function should remove the last num elements from the array, mutating the original array. 
+//The function should return a new array containing the elements that were removed.
+//Define this function using function expression syntax.
+const popper = function(array,num){
+    let arr = [];
+    for(let i=0; i<num; i++)
+    {
+        let j = array.length-1;
+        arr.push(array[j]);
+        array.pop();
+    }
+    return arr;
+}
+let arr1 = ['a', 'b', 'c', 'd', 'e'];
+console.log(popper(arr1, 2)); // [ 'e', 'd' ]
+console.log(arr1); // [ 'a', 'b', 'c' ]
+let arr2 = ['kale', 'spinach', 'collard greens', 'cabbage'];
+console.log(popper(arr2, 1)); // [ 'cabbage' ]
+console.log(arr2); // [ 'kale', 'spinach', 'collard greens' ]
+
+
+//Write a function rotateRight(array, num) that takes in an array and a number as args. 
+//The function should return a new array where the elements of the array are rotated to the right num times. 
+//The function should not mutate the original array and instead return a new array.
+//Define this function using function expression syntax.
+//HINT: you can use Array's slice() method to create a copy of an array
+//Define this function using function expression syntax.
+const rotateRight = function(array, num)
+{
+    let arr=array.slice(array.length-num).concat(array.slice(0, array.length-num));
+    return arr;
+}
+let arr3 = ['a', 'b', 'c', 'd', 'e'];
+console.log(rotateRight(arr3, 2)); // [ 'd', 'e', 'a', 'b', 'c' ]
+console.log(arr3); // [ 'a', 'b', 'c', 'd', 'e' ]
+
+let animals1 = ['wombat', 'koala', 'opossum', 'kangaroo'];
+console.log(rotateRight(animals1, 3)); // [ 'koala', 'opossum', 'kangaroo', 'wombat' ]
+console.log(animals1); // [ 'wombat', 'koala', 'opossum', 'kangaroo' ]
+
+
+//Write a function rotate(array, num) that takes in an array and a number as args. 
+//When the num is positive, the elements of the array should be rotated to the right. 
+//When the num is negative, the elements of the array should be rotated to the left. 
+//The function should mutate the original array.
+//Define this function using function expression syntax.
+const rotate = function(array, num)
+{
+    let tempNum;
+    if(num > 0)
+    {
+        for(let i=0; i < num; i ++)
+        {
+            tempNum = array[array.length-1];
+            array.unshift(tempNum);
+            array.pop();
+        }
+    }
+    else if(num < 0)
+    {
+        for(let i=0;i>num;i--)
+        {
+            tempNum = array[0];
+            array.push(tempNum);
+            array.shift();
+        }
+    }
+    else
+    {
+        return array;
+    }
+}
+let arr4 = ['a', 'b', 'c', 'd', 'e'];
+rotate(arr4, 2);
+console.log(arr4); // [ 'd', 'e', 'a', 'b', 'c' ]
+let animals = ['wombat', 'koala', 'opossum', 'kangaroo'];
+rotate(animals, -1);
+console.log(animals); // [ 'koala', 'opossum', 'kangaroo', 'wombat' ]
+
+
+//Write a function initials(name) that accepts a full name as an arg. 
+//The function should return the initials for that name.
+function initials(name)
+{
+    let arr=[];
+    namearr=name.split(" ");
+    for(let i=0;i<namearr.length;i++){
+        arr.push(namearr[i][0].toUpperCase());
+    }
+    return arr.join('');
+}
+console.log(initials('anna paschall')); // 'AP'
+console.log(initials('Mary La Grange')); // 'MLG'
+console.log(initials('brian crawford scott')); // 'BCS'
+console.log(initials('Benicio Monserrate Rafael del Toro Sánchez')); // 'BMRDTS'
+
+
+//Write a function longestWord(sentence) that takes in a sentence string as an argument. 
+//The function should return the longest word in the sentence. 
+//If there is more than one "longest word", return the first of these instances.
+function longestWord(sentence)
+{
+    let arr = sentence.split(" ");
+    let longest="";
+    for(let i=0;i<arr.length;i++)
+    {
+        if(arr[i].length > longest.length)
+        {
+            longest= arr[i];
+        }
+    }
+    return longest;
+}
+console.log(longestWord('where did everyone go')); // 'everyone'
+console.log(longestWord('prefer simplicity over complexity')); // 'simplicity'
+console.log(longestWord('')); // ''
+
+//Write a function shortestWord that accepts a sentence as an argument. 
+//The function should return the shortest word in the sentence. 
+//If there is a tie, return the word that appears later in the sentence
+function shortestWord(sentence)
+{
+    let arr= sentence.split(" ");
+    let shortestSoFar = arr[arr.length-1];
+    for(let i = arr.length-1; i>-1 ; i--)
+    {
+        if(arr[i].length < shortestSoFar.length)
+        {
+            shortestSoFar = arr[i];
+        }
+    }
+    return shortestSoFar;
+}
+console.log(shortestWord('what a wonderful life'));     // 'a'
+console.log(shortestWord('the quick brown fox jumps')); // 'fox'
+console.log(shortestWord('do what you enjoy'));         // 'do'
+
+
+//Write a function reverseSentence(sentence) that takes in a sentence as an arg. 
+//The function should return a new sentence where the order of the words is reversed. 
+//Note that you should reverse the order among words, not the order among characters.
+function reverseSentence(sentence)
+{
+    let arr=sentence.split(" ");
+    let arr2=[];
+    for(let i = arr.length; i>-1; i--)
+    {
+        arr2.push(arr[i]);
+    }
+    return arr2.join(" ");
+}
+console.log(reverseSentence('I am pretty hungry')); // 'hungry pretty am I'
+console.log(reverseSentence('follow the yellow brick road')); // 'road brick yellow the follow'
+
+//Write a function containsWord(sentence, targetWord) that accepts two strings as args. 
+//The function should return a boolean indicating whether the targetWord is found inside of the sentence. 
+//Solve this without using String's indexOf() or includes() methods.
+function containsWord(sentence, targetWord)
+{
+    let arr=sentence.split(" ");
+    for(let i=0; i< arr.length; i++)
+    {
+        if(arr[i].toLowerCase() === targetWord.toLowerCase())
+        {
+            return true;
+        }
+    }
+    return false;
+}
+console.log(containsWord('sounds like a plan', 'like')); // true
+console.log(containsWord('They are great', 'they')); // true
+console.log(containsWord('caterpillars are great animals', 'cat')); // false
+console.log(containsWord('Cast the net', 'internet')); // false
+
+
+//Write a function abbreviateWords(sentence) that takes in a sentence string. 
+//The function should return a new sentence where words that are longer than 4 characters have their vowels removed.
+//Hint: Consider creating a helper function to remove all vowels in a string.
+function abbreviateWords(sentence)
+{
+    let arr=sentence.split(" ");
+    let arr2=[];
+    for(let i=0; i< arr.length; i++)
+    {
+        if(arr[i].length > 3)
+        {
+            arr2.push(removeVowels(arr[i]));
+        }
+        else
+        {
+            arr2.push(arr[i]);
+        }
+    }
+    return arr2.join(" ");
+}
+function removeVowels(word)
+{
+    const vowels = 'aeiou';
+    let str="";
+    for(let i=0; i < word.length; i++)
+    {
+        if(vowels.indexOf(word[i])===-1)
+        {
+            str += word[i];
+        }
+        else
+        {
+            continue;
+        }
+    }
+    return str;
+}
+console.log(abbreviateWords('what a wonderful place to live')); // what a wndrfl plc to live
+console.log(abbreviateWords('she sends an excellent message ')); // she snds an xcllnt mssg
+
+//Write a function snakeToCamel that takes in a snake_cased string and returns a 
+//PascalCased version of the string. snake_case is where each word is separated with underscores (_). 
+//PascalCase is a string where the first char of each word is capital, all other chars lowercase.
+function snakeToCamel(string)
+{
+    let arr=string.split("_");
+    for(let i=0;i<arr.length;i++)
+    {
+        let arr2 = arr[i].split('');
+        for(let j=0;j<arr2.length;j++)
+            if(j===0){
+                arr2[0] = arr[i][0].toUpperCase();
+            }
+            else{
+                arr2[j] = arr[i][j].toLowerCase();
+            }
+        arr[i] = arr2.join("");
+    }
+    return arr.join("");
+}
+console.log(snakeToCamel('snakes_go_hiss')); // 'SnakesGoHiss'
+console.log(snakeToCamel('say_hello_world')); // 'SayHelloWorld'
+console.log(snakeToCamel('app_academy_is_cool')); // 'AppAcademyIsCool'
+console.log(snakeToCamel('APp_ACADEMY_iS_cOol')); // 'AppAcademyIsCool'
+
+
+//Write a function hipsterfy(sentence) that takes in a sentence string 
+//nd returns the sentence where every word is missing its last vowel.
+function hipsterfy(sentence){
+    let arr=sentence.split(" ");
+    for(let i=0;i<arr.length;i++)
+    {
+        let index = getIndexOfLastVowel(arr[i]);
+        arr[i] = arr[i].slice(0, index) + arr[i].slice(index+1);
+    }
+    return arr.join(" ");
+}
+function getIndexOfLastVowel(word)
+{
+    const vowels="aeiou";
+    let arr2=word.split("")
+    for(let j = arr2.length-1; j>-1; j--)
+        {
+            if(vowels.indexOf(arr2[j])!==-1)
+            {
+                return j;
+            }
+        }
+    return -1;
+}
+console.log(hipsterfy('When should everyone wake up?')); // 'Whn shold everyon wak p?'
+console.log(hipsterfy('get ready for our bootcamp')); // 'gt redy fr or bootcmp'
+console.log(hipsterfy('panthers are great animals')); // 'panthrs ar gret animls'
+
+
+// Write a function `repeatingTranslate` that accepts a sentence as an argument.
+// The function should translate the sentence according to the following rules:
+//
+// - words that are shorter than 3 characters are unchanged
+// - words that are 3 characters or longer are translated according to the
+//   following rules:
+//   - if the word ends with a vowel, simply repeat the word twice (example:
+//     'like'->'likelike')
+//   - if the word ends with a non-vowel, repeat all letters that come after the
+//     word's last vowel, including the last vowel itself (example:
+//     'trash'->'trashash')
+//
+// Note that if words are capitalized in the original sentence, they should remain
+// capitalized in the translated sentence. Vowels are the letters a, e, i, o, u.
+//
+// Can you reduce the problem into helper functions?
+function repeatingTranslate(sentence)
+{
+    let arr=sentence.split(" ");
+    for(let i=0; i < arr.length; i++)
+    {
+        if(arr[i].length>2)
+        {
+            let lastIndex = getIndexOfLastVowel(arr[i]);
+            if(lastIndex===arr[i].length-1)
+            {
+                arr[i] = arr[i] + arr[i];
+            }
+            else
+            {
+                arr[i] = arr[i] + arr[i].slice(lastIndex);
+            }
+        }
+    }
+    return arr.join(" ");
+}
+console.log(repeatingTranslate("we like to go running fast"));  // "we likelike to go runninging fastast"
+console.log(repeatingTranslate("he cannot find the trash"));    // "he cannotot findind thethe trashash"
+console.log(repeatingTranslate("pasta is my favorite dish"));   // "pastapasta is my favoritefavorite dishish"
+console.log(repeatingTranslate("her family flew to France"));   // "herer familyily flewew to FranceFrance"
+
+//Write a function consonantCancel that takes in a sentence 
+//and returns a new sentence where every word begins with 
+//its first vowel.
+function consonantCancel(sentence) {
+    let arr=sentence.split(" ");
+    for(let i=0;i<arr.length;i++)
+    {
+        arr[i] = arr[i].slice(firstVowelIndex(arr[i]));
+    }
+    return arr.join(" ");
+}
+function firstVowelIndex(word)
+{
+    let vowels = "aeiouAEIOU";
+    for(let i=0;i<word.length;i++)
+    {
+        if(vowels.indexOf(word[i])>-1)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
+console.log(consonantCancel("down the rabbit hole")); // "own e abbit ole"
+console.log(consonantCancel("writing code is challenging")); // "iting ode is allenging"
+
+function sameCharCollapse(str) {
+    // your code here
+    let arr=str;
+    
+    while(checkForAdjacents(arr))
+    {
+        for(let i=0; i<arr.length;i++)
+        {
+            if(arr[i] === arr[i+1])
+            {
+                arr = arr.slice(0,i)+(arr.slice(i+2, arr.length));
+            }
+        }
+    }
+    return arr;
+}
+function checkForAdjacents(word)
+{
+    for(let i=0; i<word.length;i++)
+    {
+        if(word[i] === word[i+1])
+        {
+            return true;
+        }
+    }
+    return false;
+}
+console.log(sameCharCollapse("zzzxaaxy"));  // "zy"
+// because zzzxaaxy -> zxaaxy -> zxxy -> zy
+console.log(sameCharCollapse("uqrssrqvtt")); // "uv"
+// because uqrssrqvtt -> uqrrqvtt -> uqqvtt -> uvtt -> uv
+
+
+//============
+//   PART 3
+//============
+
+//Write a function pairsMaker(arr) that takes in a an array as an argument. 
+//The function should return a 2D array where the subarrays represent unique pairs of element from the input arr
+function pairsMaker(arr)
+{
+    let array=[]
+    for(let i=0;i<arr.length;i++)
+    {
+        for(let j=i+1;j<arr.length;j++)
+        {
+            array.push([arr[i], arr[j]]);
+        }
+    }
+    return array;
+}
+console.log(pairsMaker(['a', 'b', 'c', 'd'])); // =>
+// [ [ 'a', 'b' ],
+//   [ 'a', 'c' ],
+//   [ 'a', 'd' ],
+//   [ 'b', 'c' ],
+//   [ 'b', 'd' ],
+//   [ 'c', 'd' ] ]
+
+console.log(pairsMaker(['Rosemary', 'Alex', 'Connor'])); // =>
+// [ [ 'Rosemary', 'Alex' ],
+//   [ 'Rosemary', 'Connor' ],
+//   [ 'Alex', 'Connor' ] ]
+
+
+//Write a function twoSum(arr, target) that accepts an array and a target number as args. 
+//The function should a return a boolean indicating if two distinct numbers of the array 
+//add up to the target value. You can assume that input array contains only unique numbers
+function twoSum(arr, target)
+{
+    let sum;
+    for(let i=0; i<arr.length-1; i++)
+    {
+        for(let j=i+1;j<arr.length;j++)
+        {
+            sum = arr[i] + arr[j];
+            if(sum === target)
+            {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+console.log(twoSum([1, 7, 3, 0, 2], 5)); // true
+console.log(twoSum([1, 7, 3, 0, 2], 6)); // false
+console.log(twoSum([4, 6, 2, 3], 8)); // true
+console.log(twoSum([4, 6, 2, 3], 11)); // false
+
+
+//Write a function pairProduct that accepts an array of numbers and a product as arguments. 
+//The function should return a boolean indicating whether or not a pair of distinct elements in the array
+//result in the product when multiplied together. You may assume that the input array contains unique elements.
+function pairProduct(arr, target)
+{
+    let product;
+    for(let i=0; i<arr.length-1; i++)
+    {
+        for(let j=i+1;j<arr.length;j++)
+        {
+            product = arr[i] * arr[j];
+            if(product === target)
+            {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+console.log(pairProduct([4, 2, 5, 8], 16))    // true
+console.log(pairProduct([8, 1, 9, 3], 8))     // true
+console.log(pairProduct([3, 4], 12))          // true
+console.log(pairProduct([3, 4, 6, 2, 5], 12)) // true
+console.log(pairProduct([4, 2, 5, 7], 16))    // false
+console.log(pairProduct([8, 4, 9, 3], 8))     // false
+console.log(pairProduct([3], 12))             // false
+
+//Write a function strangeSums that accepts an array of numbers as an argument. 
+//The method should return a count of the number of distinct pairs of elements 
+//that have a sum of zero. You may assume that the input array contains unique elements.
+function strangeSums(arr)
+{
+    let sum;
+    let zeroes=0;
+    for(let i=0; i<arr.length-1; i++)
+    {
+        for(let j=i+1;j<arr.length;j++)
+        {
+            sum = arr[i] + arr[j];
+            if(sum === 0)
+            {
+                zeroes++
+            }
+        }
+    }
+    return zeroes;
+}
+console.log(strangeSums([2, -3, 3, 4, -2]));     // 2
+console.log(strangeSums([42, 3, -1, -42]));      // 1
+console.log(strangeSums([-5, 5]));               // 1
+console.log(strangeSums([19, 6, -3, -20]));      // 0
+console.log(strangeSums([9]));                   // 0
