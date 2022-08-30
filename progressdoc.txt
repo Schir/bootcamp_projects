@@ -53,7 +53,7 @@ HTML Forms
 You're all done!
 Practices Completed 5 / 5
 Intermediate CSS
-Estimated Time to Complete 4 hours and 40 minutes
+You're all done!
 Practices Completed 11 / 11
 HTML & CSS: Putting It All Together
 Hide Completed
@@ -144,21 +144,21 @@ Recalling What You've Covered
 You're all done!
 Practices Completed 13 / 13
 Advanced Array Methods
-Show Completed
+Hide Completed
 Map, Reduce, and Filter
-Estimated Time to Complete 55 minutes
-Practices Completed 0 / 7
+You're all done!
+Practices Completed 7 / 7
 Advanced Array Methods Project
-Estimated Time to Complete 3 hours
-Practices Completed 0 / 1
+You're all done!
+Practices Completed 1 / 1
 Intermediate JavaScript
 Local JavaScript
-Show Completed
+Hide Completed
 Getting Started with Node.js
-Estimated Time to Complete 56 minutes
-Practices Completed 0 / 8
+You're all done!
+Practices Completed 8 / 8
 Objects
-Show Completed
+Hide Completed
 JavaScript Objects
 Estimated Time to Complete 3 hours and 25 minutes
 Practices Completed 0 / 16
@@ -688,10 +688,10 @@ Estimated Time to Complete 8 hours and 30 minutes
 Practices Completed 0 / 5
 Python
 Data Types
-Show Completed
+Hide Completed
 Setup and Introduction
-Estimated Time to Complete 1 hour and 45 minutes
-Practices Completed 0 / 9
+You're all done!
+Practices Completed 9 / 9
 Strings
 Estimated Time to Complete 1 hour and 14 minutes
 Practices Completed 0 / 19
