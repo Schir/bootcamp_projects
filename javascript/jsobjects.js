@@ -34,3 +34,17 @@ console.log(catBuilder("Whiskers", "black", ["scratching-post", "yarn"]));
 // prints: { name: 'Whiskers', color: 'black', toys: ['scratching-post', 'yarn'] }
 console.log(catBuilder("Nyan", "rainbow", ["poptarts"]));
 // prints: { name: 'Nyan', color: 'rainbow', toys: [ 'poptarts' ] }
+
+
+let bigArray = ["apple", 14, 32, 100, { name: "party" }, ["pineapple"]];
+
+// Example:
+// let [firstEl] = bigArray;
+// console.log(firstEl) // prints "apple"
+let [firstEl,secondEl,thirdEl,fourthEl,fifthEl,sixthEl] = bigArray;
+console.log(firstEl);
+console.log(secondEl);
+console.log(thirdEl)
+console.log(fourthEl);
+console.log(fifthEl);
+console.log(sixthEl);

@@ -161,10 +161,10 @@ Objects
 Hide Completed
 JavaScript Objects
 Estimated Time to Complete 3 hours and 25 minutes
-Practices Completed 0 / 16
+Practices Completed 16 / 16
 Objects Project
 Estimated Time to Complete 2 hours and 30 minutes
-Practices Completed 0 / 1
+Practices Completed 1 / 1
 Callbacks
 Show Completed
 Callbacks and Functions
@@ -694,7 +694,7 @@ You're all done!
 Practices Completed 9 / 9
 Strings
 Estimated Time to Complete 1 hour and 14 minutes
-Practices Completed 0 / 19
+Practices Completed 19 / 19
 Boolean
 Estimated Time to Complete 43 minutes
 Practices Completed 0 / 12
