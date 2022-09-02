@@ -169,10 +169,10 @@ Callbacks
 Show Completed
 Callbacks and Functions
 Estimated Time to Complete 1 hour and 5 minutes
-Practices Completed 0 / 10
+Practices Completed 10 / 10
 Callback Project
 Estimated Time to Complete 3 hours and 35 minutes
-Practices Completed 0 / 3
+Practices Completed 3 / 3
 Scope and Closures
 Show Completed
 Scope and Arrow Functions
@@ -697,7 +697,7 @@ Estimated Time to Complete 1 hour and 14 minutes
 Practices Completed 19 / 19
 Boolean
 Estimated Time to Complete 43 minutes
-Practices Completed 0 / 12
+Practices Completed 12 / 12
 Numbers
 Estimated Time to Complete 1 hour and 29 minutes
 Practices Completed 0 / 17

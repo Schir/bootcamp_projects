@@ -96,12 +96,17 @@ print(testStr)
 
 # Create a function that returns the index of a given letter in the string.
 def index_of(word, letter):
+    #pretty straightforward all around. make index
     index = 0
+    #run through word
     for let in word:
+        #if letter is same, return index
         if (str.lower(let) == str.lower(letter)):
             return index
+        #otherwise just increment the index. probably don't need the else statement, but it doesn't really change anything
         else:
             index += 1
+    #and just for completeness, if it's not in the word return -1. this wasn't specified, but I may as well.
     return -1
 print(index_of("Arm", "a"))  #> 0
 print(index_of("Pie", "e"))  #> 2
@@ -122,6 +127,13 @@ print(is_last_character_n("Dean"))   #> True
 #Create a function that returns the string "Burp" with the amount of "r's"
 #determined by the input parameters of the function.
 def long_burp(number):
+    #I was working with rust the other day and was wondering if python had anything like rust's {:<n} thing for repeating some character a bunch
+    #so I read through the python docs a bit and found out that it did.
+    #took a bit of fiddling around to figure out how to get it working, but I got there.
+
+                                        #I think I had to do number+2 here because the parameter I'm passing number to here
+                                        #makes a string of that length, so I had to add an extra two to all of them
+                                        #to account for the 'Bu' at the start and give me the number of 'r's I wanted.   
     return '{:r<{number}}'.format('Bu', number=number+2) + "p"
 print(long_burp(3))  #> "Burrrp"
 print(long_burp(5))  #> "Burrrrrp"
@@ -140,13 +152,26 @@ print(last_three("Bonjour", "OUR"))   #> True
 
 
 #Create a function that returns whether or not the string is a Palindrome.
+    #alright, there's probably a better way to do this but I couldn't think of one on short notice
+    #this import math statement's here because I needed a way to get half the length and forgot that python has an integer division operand for a second
 import math
 def is_palindrome(word):
+    #i've forgotten the conventions for working with python so I'm just beating this problem into a shape I recognize
     index=0;
-    for let in word[0:(math.ceil((len(word)/2)))]:
+    #I could probably use this letter variable, but I want to make what I'm doing a bit clearer.
+    #we're only running through half the word because that's all you need to do to check if something's a palindrome.
+    #I think I could've probably done len(word)//2, but I didn't remember that in the like two minutes I was working on this
+    for letter in word[0:(math.ceil((len(word)/2)))]:
+        #now what we're doing here is pretty straightforward
+        #just checking if the letter at some index distance away from the start of the word 
+        #is the same as the letter at index many positions away from the end of the word.
         if(word[index] != word[-index-1]):
+            #if those are ever different, it's not a palindrome
             return False
+        #and then increment the index.
+        #this probably should've been a while loop, come to think of it
         index += 1
+    #if the function's gone through the loop and not returned false, it's checked every letter, so it must be a palindrome
     return True
 print(is_palindrome("kayak")) # True
 print(is_palindrome("app"))  # False
