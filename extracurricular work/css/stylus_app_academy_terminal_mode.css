@@ -1,0 +1,56 @@
+/*to be used with the stylus extension*/
+@-moz-document domain("my.appacademy.io") {
+    h2.text-black {
+        color: #ffffff;
+    }
+    body {
+        background-color: #111111;
+    }
+    .text-red-500 {
+        color: #0099b7;
+    }
+    .bg-red-600 {
+        background-color: #003e51;
+    }
+    .bg-gray-100 {
+        background-color: #151515;
+    }
+    h1,
+    h2,
+    h3,
+    span {
+        color: #0e730d;
+    }
+    a {
+        color: #15b700;
+    }
+    .bg-gray-200, .bg-neutral-900, .bg-white {
+        background-color: #151515;
+    }
+    .bg-neutral-300 {
+        background-color: #282828;
+    }
+    p,
+    li {
+        color: #0f0;
+    }
+    .markdown code {
+        background-color: #251700;
+        color: #f9ab15
+    }
+    .bg-gray-300 {
+        background-color: #242424
+    }
+    .bg-blue-500 {
+        background-color: #0b2127
+    }
+    .text-green-400 {
+        color: #034703;
+    }
+    .bg-green-400 {
+        background-color: #007a00
+    }
+    .border-neutral-800, .border-gray-400, .borer-black{
+        border-color:#007e00;
+    }
+}
