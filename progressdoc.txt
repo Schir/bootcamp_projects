@@ -177,10 +177,10 @@ Scope and Closures
 Show Completed
 Scope and Arrow Functions
 Estimated Time to Complete 1 hour and 25 minutes
-Practices Completed 0 / 11
+Practices Completed 11 / 11
 Closures
 Estimated Time to Complete 21 minutes
-Practices Completed 0 / 3
+Practices Completed 3 / 3
 Scope and Closures Project
 Estimated Time to Complete 3 hours
 Practices Completed 0 / 1
