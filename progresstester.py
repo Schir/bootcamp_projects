@@ -45,13 +45,20 @@ with open('progressdoc.txt') as f:
     for i in list2:
         if(i != ''):
             progressum += int(i)
+    index2 = 0
+    completedCount = 0
+    for i in list2:
+        if(i != ''):
+            if((list1[index2] == list2[index2]) and (i!=0)):
+                completedCount = completedCount+1
+        index2 = index2+1
 
     #and then it ends by printing all that stuff I did above to the console.
     last = "lesson progress: "
     last += str(progressum) + " / " + str(sumtotal)
 
     print(last)
-    print("number of modules:" + str(iterator))
+    print( "modules clear:    " + str(completedCount) + " / " + str(iterator))
     #getting a rough percentage approximation by doing a type conversion from int to float, dividing them, and then rounding it off to two decimal places
     print("percent clear: " + str(round(float(progressum) / float(sumtotal) * 100, 2)) + "%")
 

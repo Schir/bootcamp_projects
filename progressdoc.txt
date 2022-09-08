@@ -82,7 +82,7 @@ Practices Completed 1 / 1
 Refactoring JavaScript Practice
 You're all done!
 Practices Completed 4 / 4
-HTML / CSS Unit Tests
+HTML & CSS Unit Tests
 You're all done!
 Practices Completed 2 / 2
 JavaScript Fundamentals
@@ -183,12 +183,12 @@ Estimated Time to Complete 21 minutes
 Practices Completed 3 / 3
 Scope and Closures Project
 Estimated Time to Complete 3 hours
-Practices Completed 0 / 1
+Practices Completed 1 / 1
 Recursion
 Show Completed
 Recursion
 Estimated Time to Complete 58 minutes
-Practices Completed 0 / 10
+Practices Completed 10 / 10
 Recursion Projects
 Estimated Time to Complete 6 hours
 Practices Completed 0 / 2
@@ -700,10 +700,10 @@ Estimated Time to Complete 43 minutes
 Practices Completed 12 / 12
 Numbers
 Estimated Time to Complete 1 hour and 29 minutes
-Practices Completed 0 / 17
+Practices Completed 15 / 17
 Operators
 Estimated Time to Complete 1 hour and 16 minutes
-Practices Completed 0 / 12
+Practices Completed 4 / 12
 Functions and Statements
 Show Completed
 Statements
