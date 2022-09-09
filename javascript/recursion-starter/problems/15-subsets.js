@@ -21,10 +21,13 @@ const subsets= array =>
   {
     return [[]];
   }
-    const lastElement = array.pop();
-    const lastSubset = subsets(array)
+  const lastElement = array.pop();
+  const lastSubset = subsets(array)
     
-    return [...lastSubset, ...lastSubset.map(additions => additions.concat([lastElement]))];
+  return [...lastSubset, ...lastSubset.map(additions => additions.concat([lastElement]))];
+  //the stuff in this commented out section is what I was trying first. it kind of worked for [1,2,3], but it didn't feel right
+  //everything about what I was trying here screams "THIS IS NOT A PLACE OF HONOR. NO ESTEEMED DEEDS ARE COMMEMORATED HERE", to me.
+  //just some absolutely radioactive code here
   /*else if(array.length === 1)
   {
     return array;

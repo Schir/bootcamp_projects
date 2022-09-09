@@ -191,15 +191,15 @@ Estimated Time to Complete 58 minutes
 Practices Completed 10 / 10
 Recursion Projects
 Estimated Time to Complete 6 hours
-Practices Completed 0 / 2
+Practices Completed 2 / 2
 IIFEs and Recalls
 Show Completed
 Hoisting
 Estimated Time to Complete 33 minutes
-Practices Completed 0 / 5
+Practices Completed 5 / 5
 Recalls
 Estimated Time to Complete 55 minutes
-Practices Completed 0 / 8
+Practices Completed 8 / 8
 Asynchronicity
 Show Completed
 Async JavaScript
