@@ -9,6 +9,10 @@ int main()
     //alright, looks like this is just going over some basic list operations
     //seems like c++ calls lists vectors. wonder why.
     vector<string> inventory;
+    //looks like you can initialize it to start with a bunch of items of the same value like this
+    //vector<string> inventory(10, "nothing");
+    //which makes vector<string> of length 10 with all elements initialized to "nothing"
+
     //guess this is pretty much the same as javascript's push operator
     inventory.push_back("sword");
     inventory.push_back("armor");
