@@ -204,13 +204,13 @@ Asynchronicity
 Show Completed
 Async JavaScript
 Estimated Time to Complete 1 hour and 8 minutes
-Practices Completed 0 / 10
+Practices Completed 10 / 10
 Timeout Project
 Estimated Time to Complete 4 hours
-Practices Completed 0 / 2
+Practices Completed 2 / 2
 Guessing Game Project
 Estimated Time to Complete 2 hours and 26 minutes
-Practices Completed 0 / 3
+Practices Completed 3 / 3
 TDD and OOP
 Basic Coding Principles
 Show Completed
