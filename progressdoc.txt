@@ -216,7 +216,7 @@ Basic Coding Principles
 Show Completed
 Modules and Packages
 Estimated Time to Complete 1 hour and 19 minutes
-Practices Completed 0 / 9
+Practices Completed 7 / 9
 Clean Maintainable Code
 Estimated Time to Complete 2 hours
 Practices Completed 0 / 9
@@ -227,7 +227,7 @@ Object-Oriented Programming
 Show Completed
 OOP & Classes
 Estimated Time to Complete 2 hours and 9 minutes
-Practices Completed 0 / 23
+Practices Completed 2 / 23
 Basic Projects
 Estimated Time to Complete 2 hours and 45 minutes
 Practices Completed 0 / 2
