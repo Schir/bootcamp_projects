@@ -15,6 +15,7 @@ int main()
     //init
     const int MAX_WRONG = 8;
 
+    //adding words that the program can choose
     vector<string> words;
     words.push_back("GUESS");
     words.push_back("HANGMAN");
@@ -23,12 +24,18 @@ int main()
     words.push_back("ECTOCOOLER");
     words.push_back("UMU");
 
+    //initializing the RNG
     srand(static_cast<unsigned int>(time(0)));
+    //looks like random shuffle is part of <algorithm>
     random_shuffle(words.begin(), words.end());
     
+    //setting the word to be the first value after the list's been shuffled.
     const string THE_WORD = words[0];
+    //setting up a count of wrong guesses
     int wrong=0;
+    //initializing the thing to be displayed as "--------" or however many dashes it'd be for the word
     string soFar(THE_WORD.size(), '-');
+    //and setting up a string to contain all the guessed letters
     string used="";
 
     cout << "Welcome to Hangman. Good luck!\n";
@@ -45,7 +52,11 @@ int main()
         char guess;
         cout << "\n\nEnter your guess: ";
         cin >> guess;
+        //all the words were initialized as uppercase so we're setting the character guessed to be uppercase
         guess = toupper(guess);
+        //setting up a sub-loop to make sure you're putting in unique guesses
+        //and it looks like string::npos is the maximum possible value for an unsigned int, which rolls over to -1 for some reason.
+        //feel like I remember reading somewhere that the last bit is used to flag whether the int is positive or negative
         while(used.find(guess) != string::npos)
         {
             cout << "\nYou've already guessed " << guess << endl;
@@ -53,8 +64,10 @@ int main()
             cin >> guess;
             guess = toupper(guess);
         }
+        //add the guess to the used letters string
         used += guess;
 
+        //check if the guess has an index in the word and reveal all positions that it's in.
         if(THE_WORD.find(guess) != string::npos)
         {
             cout << "That's right! " << guess << " is in the word.\n";
@@ -67,20 +80,25 @@ int main()
                 }
             }
         }
+        //if it's not, increment the number of wrong guesses
         else
         {
             cout << "Sorry, " << guess << " isn't in the word.\n";
             ++wrong;
         }
+        //and then return to the start of the main loop until one of the conditions stops returning true
     }
+    //if the player lost, print this
     if(wrong == MAX_WRONG)
     {
         cout << "\nYou've been hanged. Game over.";
     }
+    //otherwise congratulate them
     else
     {
         cout << "\nYou got it!";
     }
+    //and then tell them what the word was and close the program
     cout << "\nThe word was: " << THE_WORD << endl;
     return 0;
 }

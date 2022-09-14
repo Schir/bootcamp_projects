@@ -27,36 +27,56 @@ int humanMove(const vector<char>& board, char human);
 int computerMove(vector<char> board, char computer);
 void announceWinner(char winner, char computer, char human);
 
-//main
+//main function
 int main()
 {
+    //initialize some info. 
+    //whose move it is
     int move;
+    //the size of the board
     const int NUM_SQUARES = 9;
+    //the state of the board, initialized so that everything starts out empty
     vector<char> board(NUM_SQUARES, EMPTY);
+    //show the instructions
     instructions();
+    //set the piece each player controls
     char human = humanPiece();
     char computer = opponent(human);
+    //start with whoever picked X
     char turn = X;
+    //show the initial board state
     displayBoard(board);
 
+    //main gameplay loop
     while(winner(board) == NO_ONE)
     {
+        //if it's the player's turn,
         if(turn == human)
         {
+            //get the player's input
             move = humanMove(board, human);
+            //update the board state
             board[move] = human;
         }
+        //otherwise, get computer input
         else
         {
             move = computerMove(board, computer);
             board[move] = computer;
         }
+        //show the new board state
         displayBoard(board);
+        //change the turn
         turn = opponent(turn);
+        //repeat
     }
+    //say who won
     announceWinner(winner(board), computer, human);
+    //exit program
     return 0;
 }
+
+//and then break all those moving parts out into their own functions for clarity
 
 void instructions()
 {
