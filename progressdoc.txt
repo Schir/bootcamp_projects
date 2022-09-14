@@ -216,10 +216,10 @@ Basic Coding Principles
 Show Completed
 Modules and Packages
 Estimated Time to Complete 1 hour and 19 minutes
-Practices Completed 7 / 9
+Practices Completed 9 / 9
 Clean Maintainable Code
 Estimated Time to Complete 2 hours
-Practices Completed 0 / 9
+Practices Completed 5 / 9
 Clean Maintainable Code Project
 Estimated Time to Complete 1 hour and 30 minutes
 Practices Completed 0 / 1
