@@ -4,3 +4,4 @@ cypress/
 package-lock.json
 package.json
 cypress.json
+target/
