@@ -12,6 +12,6 @@ int main()
     printf("size of double array %ld size of double %ld\n", sizeof(doubleArray),sizeof(double));
     printf("size of float array %ld size of float %ld\n", sizeof(floatArray), sizeof(float));
     printf("size of char array %ld size of char %ld", sizeof(charArray), sizeof(char));
-
+    printf("size of 'a': %ld", sizeof('a'));
     return 0;
 }
