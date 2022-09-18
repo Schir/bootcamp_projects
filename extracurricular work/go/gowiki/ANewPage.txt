@@ -1,0 +1,2 @@
+ANewPage is a document where the page is new and not old
+[test]
