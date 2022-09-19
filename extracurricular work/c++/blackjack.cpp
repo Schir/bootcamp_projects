@@ -420,7 +420,6 @@ void Game::Play()
     m_House.FlipFirstCard();
     cout << endl << m_House;
 
-    cout << endl<< m_House;
     //deal additional cards to house
     m_Deck.AdditionalCards(m_House);
     if(m_House.IsBusted())
@@ -428,7 +427,7 @@ void Game::Play()
         //everyone still playing wins
         for(pPlayer = m_Players.begin(); pPlayer != m_Players.end(); pPlayer++)
         {
-            if(!pPlayer->IsBusted())
+            if(!(pPlayer->IsBusted()))
             {
                 pPlayer->Win();
             }
@@ -436,19 +435,23 @@ void Game::Play()
     }
     else
     {
-        if(!(pPlayer->IsBusted()))
+        //compare each player still playing to the house
+        for(pPlayer = m_Players.begin();pPlayer !=m_Players.end();pPlayer++)
         {
-            if(pPlayer->GetTotal() > m_House.GetTotal())
+            if(!(pPlayer->IsBusted()))
             {
-                pPlayer->Win();
-            }
-            else if(pPlayer->GetTotal() < m_House.GetTotal())
-            {
-                pPlayer->Lose();
-            }
-            else
-            {
-                pPlayer->Push();
+                if(pPlayer->GetTotal() > m_House.GetTotal())
+                {
+                    pPlayer->Win();
+                }
+                else if(pPlayer->GetTotal() < m_House.GetTotal())
+                {
+                    pPlayer->Lose();
+                }
+                else
+                {
+                    pPlayer->Push();
+                }
             }
         }
     }
